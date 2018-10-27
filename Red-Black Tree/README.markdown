@@ -48,7 +48,7 @@ n   n  n  n                     n   b
 ## Insertion
 
 We create a new node with the value to be inserted into the tree. The color of this new node is always red.
-We perform a standard BST insert with this node. Now the three might not be a valid RBT anymore.
+We perform a standard BST insert with this node. Now the tree might not be a valid RBT anymore.
 We now go through several insertion steps in order to make the tree valid again. We call the just inserted node n.  
 
 **Step 1**: We check if n is the rootNode, if so we paint it black and we are done. If not we go to Step 2.
